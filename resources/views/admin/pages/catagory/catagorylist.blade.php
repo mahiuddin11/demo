@@ -24,7 +24,7 @@
 
 
 
-    <div class=" table-responsive py-2 p-2">
+    <div class=" table-responsive px-4 py-4">
         <table class="table table-bordered table-hover">
             <thead class=" thead-light">
                 <tr>
