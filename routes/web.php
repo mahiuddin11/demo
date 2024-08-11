@@ -19,4 +19,12 @@ Route::get('/', function () {
 
 Route::get('admin',function () {
     return view('admin.pages.deshbord');
-});
+})->name('deshbord');
+
+Route::get('catagorylist',function(){
+    return view('admin.pages.catagory.catagorylist');
+})->name('catagory-list');
+
+Route::get('catagory-add', function () {
+    return view('admin.pages.catagory.catagoryadd');
+})->name('catagory-add');

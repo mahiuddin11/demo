@@ -1,5 +1,10 @@
 @extends('admin.master')
 
+<style>
+    .row {
+        padding: 1px 18px;
+    }
+</style>
 @section('content')
     <!-- Begin Page Content -->
     <div class="container-fluid">
